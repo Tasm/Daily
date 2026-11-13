@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stock Attention Records · Daily Stock Hubub</title>
+<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0a111d;color:#eef4fc;font:15px/1.6 system-ui,sans-serif}main{max-width:1040px;padding:40px 20px;margin:auto}a{color:#67e0bb}h1{font-size:clamp(28px,5vw,42px);letter-spacing:-.035em;margin:16px 0}p{color:#a3b2c7;max-width:850px}.panel{overflow:auto;background:#111d2d;border:1px solid #26364c;border-radius:12px}table{border-collapse:collapse;width:100%;text-align:left}caption{padding:18px;text-align:left;font-weight:700}th,td{padding:14px 18px;border-top:1px solid #26364c}th{color:#a3b2c7;font-size:12px}.num{font-variant-numeric:tabular-nums;font-size:20px;color:#67e0bb;font-weight:750}.note{padding:16px;border-left:3px solid #f4be70;background:#211f1c;border-radius:0 8px 8px 0;color:#d9c7ad}footer{color:#a3b2c7;margin-top:22px;font-size:12px}@media(max-width:600px){th,td{padding:12px 10px;font-size:12px}.num{font-size:18px}th:last-child,td:last-child{min-width:190px}}</style></head><body><main>
+<a href="./index.html">← Daily Stock Hubub</a><h1>Stock attention records</h1>
+<p>Each symbol's highest composite attention score saved by this tracker. A future scan must beat its saved score to qualify for the daily list. New symbols qualify for their first record.</p>
+<p class="note"><strong>A record high is not a normal average.</strong> Equal or lower scores are skipped. Scores intentionally sum overlapping provider counts. Changes in available providers can affect comparisons.</p>
+<div class="panel"><table id="attention-records"><caption>Saved records · initialized November 12, 2026</caption><thead><tr><th scope="col">Symbol</th><th scope="col">Highest score</th><th scope="col">Record date</th><th scope="col">Source breakdown</th></tr></thead><tbody><tr><td><a href="https://finance.yahoo.com/quote/CIA/">CIA</a></td><td class="num">66</td><td>2026-11-12</td><td>ApeWisdom: 66</td></tr><tr><td><a href="https://finance.yahoo.com/quote/DC/">DC</a></td><td class="num">14</td><td>2026-11-12</td><td>ApeWisdom: 14</td></tr><tr><td><a href="https://finance.yahoo.com/quote/DEI/">DEI</a></td><td class="num">31</td><td>2026-11-12</td><td>ApeWisdom: 16 + ChartExchange: 15</td></tr><tr><td><a href="https://finance.yahoo.com/quote/DXST/">DXST</a></td><td class="num">100</td><td>2026-11-12</td><td>AltIndex: 100</td></tr><tr><td><a href="https://finance.yahoo.com/quote/HE/">HE</a></td><td class="num">13</td><td>2026-11-12</td><td>ApeWisdom: 13</td></tr><tr><td><a href="https://finance.yahoo.com/quote/LINK/">LINK</a></td><td class="num">14</td><td>2026-11-12</td><td>ApeWisdom: 14</td></tr><tr><td><a href="https://finance.yahoo.com/quote/PLCE/">PLCE</a></td><td class="num">29</td><td>2026-11-12</td><td>ApeWisdom: 14 + ChartExchange: 15</td></tr><tr><td><a href="https://finance.yahoo.com/quote/SLS/">SLS</a></td><td class="num">49</td><td>2026-11-12</td><td>ApeWisdom: 15 + ChartExchange: 34</td></tr><tr><td><a href="https://finance.yahoo.com/quote/UP/">UP</a></td><td class="num">16</td><td>2026-11-12</td><td>ApeWisdom: 16</td></tr><tr><td><a href="https://finance.yahoo.com/quote/WTF/">WTF</a></td><td class="num">50</td><td>2026-11-12</td><td>ChartExchange: 50</td></tr></tbody></table></div>
+<footer>Initialized from the 10 stocks on the published November 12 scan. Records only increase; skipped stocks retain their saved high. The structured data below is the canonical record and the visible table must match it.</footer>
+<script type="application/json" id="mention-highs">{
+  "schema_version": 1,
+  "metric": "sum_of_reported_per_site_mentions",
+  "comparison": "strictly_greater",
+  "initialized_date": "2026-11-12",
+  "records": {
+    "DXST": {
+      "highest_score": 100,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "AltIndex": {
+          "count": 100,
+          "url": "https://altindex.com/reddit-stocks",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "CIA": {
+      "highest_score": 66,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 66,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "WTF": {
+      "highest_score": 50,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ChartExchange": {
+          "count": 50,
+          "url": "https://chartexchange.com/trends/reddit/mentions/stocks/",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "SLS": {
+      "highest_score": 49,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 15,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        },
+        "ChartExchange": {
+          "count": 34,
+          "url": "https://chartexchange.com/trends/reddit/mentions/stocks/",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "DEI": {
+      "highest_score": 31,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 16,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        },
+        "ChartExchange": {
+          "count": 15,
+          "url": "https://chartexchange.com/trends/reddit/mentions/stocks/",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "PLCE": {
+      "highest_score": 29,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 14,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        },
+        "ChartExchange": {
+          "count": 15,
+          "url": "https://chartexchange.com/trends/reddit/mentions/stocks/",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "UP": {
+      "highest_score": 16,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 16,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "DC": {
+      "highest_score": 14,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 14,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "LINK": {
+      "highest_score": 14,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 14,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    },
+    "HE": {
+      "highest_score": 13,
+      "record_date": "2026-11-12",
+      "source_counts": {
+        "ApeWisdom": {
+          "count": 13,
+          "url": "https://apewisdom.io/api/v1.0/filter/all-stocks/page/1",
+          "window": "last_24h"
+        }
+      },
+      "provenance": "Imported from the published November 12 scan, approximately 7:37 PM PST"
+    }
+  }
+}</script>
+</main></body></html>
